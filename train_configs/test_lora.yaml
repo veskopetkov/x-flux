@@ -1,7 +1,7 @@
 model_name: "flux-dev"
 data_config:
   train_batch_size: 4
-  num_workers: 4
+  num_workers: 0
   img_size: 1024
   img_dir: images/
   random_ratio: true # support multi crop preprocessing
