@@ -8,7 +8,7 @@ data_config:
 report_to: wandb
 train_batch_size: 4
 output_dir: lora/
-max_train_steps: 100000
+max_train_steps: 25000
 learning_rate: 0.0004
 lr_scheduler: cosine_with_restarts
 lr_warmup_steps: 10
